@@ -392,7 +392,7 @@ scheduler(void)
             cprintf("\n %s PID - %d priority is: %d", p->name, p->pid,p->priority);
         } */
         p = searchPrior;
-        cprintf("\n %s PID - %d priority is: %d", p->name, p->pid,p->priority);
+        //cprintf("\n %s PID - %d priority is: %d", p->name, p->pid,p->priority);
       // Switch to chosen process.  It is the process's job
       // to release ptable.lock and then reacquire it
       // before jumping back to us.
