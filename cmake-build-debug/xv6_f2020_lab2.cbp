@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="xv6_f2020_lab2"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\John\Documents\UCR\CS153\xv6_f2020_lab2\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\John\Documents\UCR\CS153\xv6_f2020_lab2\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\John\Documents\UCR\CS153\xv6_f2020_lab2\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\John\Documents\UCR\CS153\xv6_f2020_lab2\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="xv6_f2020_lab2">
+				<Option output="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/cmake-build-debug/xv6_f2020_lab2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/."/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\John\Documents\UCR\CS153\xv6_f2020_lab2\cmake-build-debug\Makefile VERBOSE=1 xv6_f2020_lab2"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\John\Documents\UCR\CS153\xv6_f2020_lab2\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\John\Documents\UCR\CS153\xv6_f2020_lab2\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\John\Documents\UCR\CS153\xv6_f2020_lab2\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="xv6_f2020_lab2/fast">
+				<Option output="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/cmake-build-debug/xv6_f2020_lab2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/."/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\John\Documents\UCR\CS153\xv6_f2020_lab2\cmake-build-debug\Makefile VERBOSE=1 xv6_f2020_lab2/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\John\Documents\UCR\CS153\xv6_f2020_lab2\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\John\Documents\UCR\CS153\xv6_f2020_lab2\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\John\Documents\UCR\CS153\xv6_f2020_lab2\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\John\Documents\UCR\CS153\xv6_f2020_lab2\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\John\Documents\UCR\CS153\xv6_f2020_lab2\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\John\Documents\UCR\CS153\xv6_f2020_lab2\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\John\Documents\UCR\CS153\xv6_f2020_lab2\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\John\Documents\UCR\CS153\xv6_f2020_lab2\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\John\Documents\UCR\CS153\xv6_f2020_lab2\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\John\Documents\UCR\CS153\xv6_f2020_lab2\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\John\Documents\UCR\CS153\xv6_f2020_lab2\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/asm.h">
+			<Option target="xv6_f2020_lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/bio.c">
+			<Option target="xv6_f2020_lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/bootmain.c">
+			<Option target="xv6_f2020_lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/buf.h">
+			<Option target="xv6_f2020_lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/cat.c">
+			<Option target="xv6_f2020_lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/console.c">
+			<Option target="xv6_f2020_lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/date.h">
+			<Option target="xv6_f2020_lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/defs.h">
+			<Option target="xv6_f2020_lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/echo.c">
+			<Option target="xv6_f2020_lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/elf.h">
+			<Option target="xv6_f2020_lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/exec.c">
+			<Option target="xv6_f2020_lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/fcntl.h">
+			<Option target="xv6_f2020_lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/file.c">
+			<Option target="xv6_f2020_lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/file.h">
+			<Option target="xv6_f2020_lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/forktest.c">
+			<Option target="xv6_f2020_lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/fs.c">
+			<Option target="xv6_f2020_lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/fs.h">
+			<Option target="xv6_f2020_lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/grep.c">
+			<Option target="xv6_f2020_lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/ide.c">
+			<Option target="xv6_f2020_lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/init.c">
+			<Option target="xv6_f2020_lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/ioapic.c">
+			<Option target="xv6_f2020_lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/kalloc.c">
+			<Option target="xv6_f2020_lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/kbd.c">
+			<Option target="xv6_f2020_lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/kbd.h">
+			<Option target="xv6_f2020_lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/kill.c">
+			<Option target="xv6_f2020_lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/lapic.c">
+			<Option target="xv6_f2020_lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/ln.c">
+			<Option target="xv6_f2020_lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/log.c">
+			<Option target="xv6_f2020_lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/ls.c">
+			<Option target="xv6_f2020_lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/main.c">
+			<Option target="xv6_f2020_lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/memide.c">
+			<Option target="xv6_f2020_lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/memlayout.h">
+			<Option target="xv6_f2020_lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/mkdir.c">
+			<Option target="xv6_f2020_lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/mkfs.c">
+			<Option target="xv6_f2020_lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/mmu.h">
+			<Option target="xv6_f2020_lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/mp.c">
+			<Option target="xv6_f2020_lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/mp.h">
+			<Option target="xv6_f2020_lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/param.h">
+			<Option target="xv6_f2020_lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/picirq.c">
+			<Option target="xv6_f2020_lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/pipe.c">
+			<Option target="xv6_f2020_lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/printf.c">
+			<Option target="xv6_f2020_lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/proc.c">
+			<Option target="xv6_f2020_lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/proc.h">
+			<Option target="xv6_f2020_lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/rm.c">
+			<Option target="xv6_f2020_lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/sh.c">
+			<Option target="xv6_f2020_lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/sleeplock.c">
+			<Option target="xv6_f2020_lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/sleeplock.h">
+			<Option target="xv6_f2020_lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/spinlock.c">
+			<Option target="xv6_f2020_lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/spinlock.h">
+			<Option target="xv6_f2020_lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/stat.h">
+			<Option target="xv6_f2020_lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/stressfs.c">
+			<Option target="xv6_f2020_lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/string.c">
+			<Option target="xv6_f2020_lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/syscall.c">
+			<Option target="xv6_f2020_lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/syscall.h">
+			<Option target="xv6_f2020_lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/sysfile.c">
+			<Option target="xv6_f2020_lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/sysproc.c">
+			<Option target="xv6_f2020_lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/trap.c">
+			<Option target="xv6_f2020_lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/traps.h">
+			<Option target="xv6_f2020_lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/types.h">
+			<Option target="xv6_f2020_lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/uart.c">
+			<Option target="xv6_f2020_lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/ulib.c">
+			<Option target="xv6_f2020_lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/umalloc.c">
+			<Option target="xv6_f2020_lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/user.h">
+			<Option target="xv6_f2020_lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/usertests.c">
+			<Option target="xv6_f2020_lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/vm.c">
+			<Option target="xv6_f2020_lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/wc.c">
+			<Option target="xv6_f2020_lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/x86.h">
+			<Option target="xv6_f2020_lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/zombie.c">
+			<Option target="xv6_f2020_lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/John/Documents/UCR/CS153/xv6_f2020_lab2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

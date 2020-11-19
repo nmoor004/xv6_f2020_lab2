@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dafe733b-7457-429c-a812-4912dc2108fc" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\John\Documents\UCR\CS153\xv6_f2020_lab2\xv6\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1kUkFTckQQFy0Jp0FbChQgcABNs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dafe733b-7457-429c-a812-4912dc2108fc" name="Default Changelist" comment="" />
+      <created>1605762453628</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605762453628</updated>
+      <workItem from="1605762455005" duration="1261000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="198" key="#Deployment" timestamp="1605762613046">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="552" y="198" key="#Deployment/1920.10.1920.1080/0.0.1920.1080/-1600.171.1600.900@0.0.1920.1080" timestamp="1605762613046" />
+    <state x="414" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605762959600">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="414" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.10.1920.1080/0.0.1920.1080/-1600.171.1600.900@0.0.1920.1080" timestamp="1605762959600" />
+    <state x="740" y="295" width="440" height="612" key="FileChooserDialogImpl" timestamp="1605763722003">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="740" y="295" width="440" height="612" key="FileChooserDialogImpl/1920.10.1920.1080/0.0.1920.1080/-1600.171.1600.900@0.0.1920.1080" timestamp="1605763722003" />
+    <state width="1877" height="363" key="GridCell.Tab.0.bottom" timestamp="1605762966854">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="363" key="GridCell.Tab.0.bottom/1920.10.1920.1080/0.0.1920.1080/-1600.171.1600.900@0.0.1920.1080" timestamp="1605762966854" />
+    <state width="1877" height="363" key="GridCell.Tab.0.center" timestamp="1605762966853">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="363" key="GridCell.Tab.0.center/1920.10.1920.1080/0.0.1920.1080/-1600.171.1600.900@0.0.1920.1080" timestamp="1605762966853" />
+    <state width="1877" height="363" key="GridCell.Tab.0.left" timestamp="1605762966853">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="363" key="GridCell.Tab.0.left/1920.10.1920.1080/0.0.1920.1080/-1600.171.1600.900@0.0.1920.1080" timestamp="1605762966853" />
+    <state width="1877" height="363" key="GridCell.Tab.0.right" timestamp="1605762966854">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="363" key="GridCell.Tab.0.right/1920.10.1920.1080/0.0.1920.1080/-1600.171.1600.900@0.0.1920.1080" timestamp="1605762966854" />
+    <state width="1877" height="363" key="GridCell.Tab.1.bottom" timestamp="1605762966860">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="363" key="GridCell.Tab.1.bottom/1920.10.1920.1080/0.0.1920.1080/-1600.171.1600.900@0.0.1920.1080" timestamp="1605762966860" />
+    <state width="1877" height="363" key="GridCell.Tab.1.center" timestamp="1605762966854">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="363" key="GridCell.Tab.1.center/1920.10.1920.1080/0.0.1920.1080/-1600.171.1600.900@0.0.1920.1080" timestamp="1605762966854" />
+    <state width="1877" height="363" key="GridCell.Tab.1.left" timestamp="1605762966854">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="363" key="GridCell.Tab.1.left/1920.10.1920.1080/0.0.1920.1080/-1600.171.1600.900@0.0.1920.1080" timestamp="1605762966854" />
+    <state width="1877" height="363" key="GridCell.Tab.1.right" timestamp="1605762966859">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="363" key="GridCell.Tab.1.right/1920.10.1920.1080/0.0.1920.1080/-1600.171.1600.900@0.0.1920.1080" timestamp="1605762966859" />
+    <state width="640" height="204" key="ImportCMakeProjectWizard.bottomPanel" timestamp="1605763724196">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="640" height="204" key="ImportCMakeProjectWizard.bottomPanel/1920.10.1920.1080/0.0.1920.1080/-1600.171.1600.900@0.0.1920.1080" timestamp="1605763724196" />
+    <state width="640" height="476" key="ImportCMakeProjectWizard.topPanel" timestamp="1605763724196">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="640" height="476" key="ImportCMakeProjectWizard.topPanel/1920.10.1920.1080/0.0.1920.1080/-1600.171.1600.900@0.0.1920.1080" timestamp="1605763724196" />
+    <state x="1505" y="324" key="ftp.server.browser" timestamp="1605762608842">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1505" y="324" key="ftp.server.browser/1920.10.1920.1080/0.0.1920.1080/-1600.171.1600.900@0.0.1920.1080" timestamp="1605762608842" />
+  </component>
+</project>
