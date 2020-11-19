@@ -355,7 +355,7 @@ void
 scheduler(void)
 {
     struct proc *searchPrior;
-    struct proc *search;
+    struct proc *search; //IT WORKED!
   struct proc *p;
   struct cpu *c = mycpu();
   c->proc = 0;
@@ -380,6 +380,7 @@ scheduler(void)
             }
 
             if (search->priority < searchPrior->priority) {
+                //cprintf("\n %s PID - %d is higher than %s PID - %d", search->name, search->pid, searchPrior->name, searchPrior->pid);
                 searchPrior = search;
             }
         }
