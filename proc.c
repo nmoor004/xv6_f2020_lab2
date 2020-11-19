@@ -90,6 +90,7 @@ allocproc(void)
 found:
   p->state = EMBRYO;
   p->pid = nextpid++;
+  p->priority = 10; //==LAB2== default priority is 10
 
   release(&ptable.lock);
 
@@ -201,6 +202,7 @@ fork(void)
   np->sz = curproc->sz;
   np->parent = curproc;
   *np->tf = *curproc->tf;
+  np->priority = curproc->priority; //==LAB2==
 
   // Clear %eax so that fork returns 0 in the child.
   np->tf->eax = 0;
@@ -313,6 +315,34 @@ wait(void)
   }
 }
 
+//==LAB2==
+
+
+
+
+int set_prior(int prior_lvl) {
+    //Check for valid prior_lvl; if invalid, correct it to the nearest value
+    if (prior_lvl < 0) {
+        prior_lvl = 0;
+    }
+    else if (prior_lvl > 31) {
+        prior_lvl = 31;
+    }
+
+    //Do this after check because its less expensive
+    struct proc *setPrior = myproc(); //Get the current process, refer to pg 65 of os book!!
+
+    acquire(&ptable.lock);
+    setPrior->priority = prior_lvl;
+    cprintf("\n SET_PRIOR for %s PID - %d priority is: %d", setPrior->name, setPrior->pid,setPrior->priority);
+    release(&ptable.lock);
+
+    return 0;
+}
+
+
+
+
 //PAGEBREAK: 42
 // Per-CPU process scheduler.
 // Each CPU calls scheduler() after setting itself up.
@@ -324,6 +354,8 @@ wait(void)
 void
 scheduler(void)
 {
+    struct proc *searchPrior;
+    struct proc *search;
   struct proc *p;
   struct cpu *c = mycpu();
   c->proc = 0;
@@ -334,10 +366,32 @@ scheduler(void)
 
     // Loop over process table looking for process to run.
     acquire(&ptable.lock);
+    //searchPrior = ptable.proc; //==LAB2== used to find the highest priority process
     for(p = ptable.proc; p < &ptable.proc[NPROC]; p++){
-      if(p->state != RUNNABLE)
-        continue;
+        if(p->state != RUNNABLE) {
+            continue;
+        }
+        searchPrior = p;
 
+        for (search = ptable.proc; search < &ptable.proc[NPROC]; search++) {
+
+            if(search->state != RUNNABLE) {
+                continue;
+            }
+
+            if (search->priority < searchPrior->priority) {
+                searchPrior = search;
+            }
+        }
+
+
+
+        /*if (p->priority <= searchPrior->priority) {
+            searchPrior = p;
+            cprintf("\n %s PID - %d priority is: %d", p->name, p->pid,p->priority);
+        } */
+        p = searchPrior;
+        cprintf("\n %s PID - %d priority is: %d", p->name, p->pid,p->priority);
       // Switch to chosen process.  It is the process's job
       // to release ptable.lock and then reacquire it
       // before jumping back to us.
