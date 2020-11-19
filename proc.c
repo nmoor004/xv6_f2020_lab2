@@ -371,10 +371,10 @@ scheduler(void)
         if(p->state != RUNNABLE) {
             continue;
         }
-        searchPrior = p;
+        searchPrior = p; //set searchPrior to the current process
 
-        for (search = ptable.proc; search < &ptable.proc[NPROC]; search++) {
-
+        for (search = ptable.proc; search < &ptable.proc[NPROC]; search++) { //Search for process with higher priority
+            //If current proc is lower priority, then switch to search
             if(search->state != RUNNABLE) {
                 continue;
             }
